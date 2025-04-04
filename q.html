@@ -4,16 +4,15 @@
     <title>DeepLearning.AI Forum</title>
     <script>
         function handleSubmit() {
-            document.getElementById("form").innerHTML = "";
             document.getElementById("message").innerText = "Thank you";
-
         }
     </script>
 </head>
 <body>
+    <h1>Question 1</h1>
     <p>I understand that by joining the DeepLearning.AI Forum I will be able to:</p>
     
-    <form id="form" onsubmit="event.preventDefault(); handleSubmit();">
+    <form onsubmit="event.preventDefault(); handleSubmit();">
         <input type="checkbox" id="guidance" name="guidance">
         <label for="guidance">Look for guidance on any questions you might have about the course</label><br><br>
 
@@ -34,6 +33,6 @@
     
     <p id="message"></p>
     
-    <p><a href="https://www.deeplearning.ai/" target="_blank">Click on this link</a> to create your free account and connect with the DeepLearning.AI Community!</p>
+    <p><a href="https://community.deeplearning.ai/" target="_blank">Click on this link</a> to create your free account and connect with the DeepLearning.AI Community!</p>
 </body>
 </html>
